@@ -1,0 +1,26 @@
+package com.yychat.model;
+
+	import java.io.Serializable;
+public class Msaaage implements Serializable{
+	private string sender;
+	private string receiver;
+	private string messageType;
+	
+	public string getSender() {
+		return sender;
+	}
+	public void setSender(string sender) { }
+	public string getReceiver() {
+		return receiver;
+	}
+	public void setReceiver(string receiver) {
+		this.receiver = receiver;
+	}
+	public string getMessageType() {
+		return messageType;
+	}
+	public void setMessageType(string messageType) {
+		this.messageType = messageType;
+	}
+	
+}

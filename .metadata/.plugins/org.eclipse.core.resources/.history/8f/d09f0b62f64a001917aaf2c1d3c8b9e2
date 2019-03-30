@@ -1,0 +1,11 @@
+package com.yychatserver.controller;
+
+public class ServerReceiverThread extends Thread {
+	Socket s;
+	
+	pulic ServerReceiverThread(Socket);
+	
+
+	}
+
+}
